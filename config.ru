@@ -1,3 +1,9 @@
 require './config/environment'
+  
+class App < Sinatra::Base
 
-run App
+  get '/' do
+    "Started my server using Shotgun!"
+  end
+
+end
